@@ -1,0 +1,143 @@
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+}
+
+header {
+  background: linear-gradient(to right, #3498db, #3ecb79);
+  padding: 5px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  margin-left: 120px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+header img {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav button {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 20px; /* Ajusta el tamaño de la letra */
+}
+
+nav button:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Cambia a un fondo transparente al pasar el mouse */
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  padding-right: 220px;
+  padding-left: 220px;
+  font-size: 34px;
+  color: #333;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#home img {
+  display: block; /* Centra la imagen */
+  margin: 0, auto;
+  width: 100%;
+  height: fit-content;
+}
+
+.section-description {
+  color: #0c0000;
+  font-size: 30px;
+}
+.section-description--books {
+  color: #0c0000;
+  font-size: 40px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 20px; */
+}
+
+.grid-item {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.blogTitle {
+  margin: 30px;
+}
+.grid-item img {
+  border-radius: 35px;
+  max-width: 100%;
+  width: 100%;
+  height: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 27px; */
+}
+
+.centered-container {
+  text-align: center;
+}
+
+.centered-container img {
+  margin: 25px 0;
+  min-height: 50px;
+  min-width: 300px;
+}
+
+.bookQuote {
+  font-size: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 40px;
+}
+.carousel-container {
+  margin-top: 48px;
+}
+
+.carousel-caption {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+  /* font-weight: bolder; */
+}
